@@ -1,3 +1,5 @@
+[https://medium.com/javarevisited/kubernetes-step-by-step-with-spring-boot-docker-gke-35e9481f6d5f]
+
 # Deployment on Google Cloud
 
 * Cloud Shell\
