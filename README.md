@@ -6,14 +6,14 @@
 ### Docker Commands
 
 * Datareader \
-    ``git clone https://saliabbasraza:<password>@github.com/saliabbasraza/spring-datareader.git``
+    ``git clone https://saliabbasraza:<password>@github.com/saliabbasraza/spring-datareader.git``\
     ``cd spring-datareader/``\
     ``./mvnw clean package``\
     ``docker build -t gcr.io/${PROJECT_ID}/spring-datareader .``\
     ``docker push gcr.io/brave-pen-272418/spring-datareader``
 
-* UserApi\
-    ``git clone https://saliabbasraza:<password>@github.com/saliabbasraza/spring-user-api.git``
+* UserApi \
+    ``git clone https://saliabbasraza:<password>@github.com/saliabbasraza/spring-user-api.git``\
     ``cd spring-user-api/``\
     ``./mvnw clean package``\
     ``docker build -t gcr.io/${PROJECT_ID}/spring-user-api .``\
