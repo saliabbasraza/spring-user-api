@@ -26,3 +26,7 @@
    ``kubectl run userapi --image=gcr.io/${PROJECT_ID}/spring-user-api:latest --port 8080 --labels="app=spring-user-api,tier=frontend"``\
    ``kubectl expose deployment userapi --type=LoadBalancer --port 80 --target-port 8080``\
    ``kubectl expose deployment dataserver --type=ClusterIP --port 80 --target-port 8080 --selector="app=spring-datareader,tier=backend"``
+   
+### Debug Commands
+    kubectl get pod
+    kubectl exec -it <pod-name> -- /bin/bash

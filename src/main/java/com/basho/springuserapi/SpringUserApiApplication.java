@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 public class SpringUserApiApplication {
 
 //    public static final String serverUrl = "http://localhost:9090";
-    public static final String serverUrl = "http://dataservice.default.svc.cluster.local";
+    public static final String serverUrl = "http://dataserver.default.svc.cluster.local";
 
     public static void main(String[] args) {
         SpringApplication.run(SpringUserApiApplication.class, args);
