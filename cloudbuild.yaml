@@ -1,9 +1,9 @@
 steps:
   - name: 'gcr.io/cloud-builders/mvn'
     args:
-      - 'clean'
-      - 'package'
-      id: Maven package
+      - clean
+      - package
+    id: Maven package
   - name: gcr.io/cloud-builders/docker
     args:
       - build
