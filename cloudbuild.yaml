@@ -64,7 +64,7 @@ substitutions:
   _OUTPUT_BUCKET_PATH: brave-pen-272418_cloudbuild/deploy
   _K8S_YAML_PATH: kubernetes.yml
   _DOCKERFILE_DIR: ''
-  _K8S_ANNOTATIONS: gcb-trigger-id=09ab21f5-8561-47b6-ae58-7929e211b301
+  _K8S_ANNOTATIONS: gcb-trigger-id=631e52ab-be7a-4a67-aa29-3848885f16c3
   _K8S_LABELS: ''
 tags:
   - gcp-cloud-build-deploy
